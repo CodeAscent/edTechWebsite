@@ -25950,7 +25950,37 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul>li {
     .mb-space-bottom {
         margin-bottom: 35px;
     }
+
+    .boxxx{
+        height: initial;
+    }
+    .max-widthclss img{
+        margin: 0px !important;
+        width: 100% !important;
+    }
+
+    section>.container, section>.container-fluid {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .owl-carousel .tm-carousel-item {
+        height: fit-content;
+    }
+  
 }
+
+
+
+@media (max-width: 1070px) {
+  
+    .flexnav {
+        display: flex !important;
+         justify-content: center !important;
+         align-items: center !important;
+    }
+}
+
 
 
 .flexnav {
