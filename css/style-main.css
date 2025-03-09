@@ -14648,7 +14648,8 @@ blockquote.blockquote-style8 footer cite {
     overflow: hidden;
     padding: 40px;
     border-radius: 10px;
-    transition: all .2s ease-in
+    transition: all .2s ease-in;
+    height: 100%
 }
 
 @media(prefers-reduced-motion:reduce) {
@@ -25920,6 +25921,7 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul>li {
 .max-widthclss {
     max-width: 1140px;
     margin: auto;
+    width: 100% !important;
 }
 
 
@@ -25992,4 +25994,19 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul>li {
 .flexnav img {
     width: 120px;
     height: auto;
+}
+
+
+.recommendfr {
+    position: relative;
+}
+
+
+.recommendfr .recommendimg {
+    position: absolute;
+    z-index: 1;
+    width: 95px;
+    top: -43px;
+    /* right: 20px; */
+    left: -14px;
 }
