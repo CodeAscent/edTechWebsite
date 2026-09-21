@@ -1,0 +1,26 @@
+{
+  "name": "Arcohz",
+  "short_name": "Arcohz",
+  "description": "Speech and language development app for children. Voice for a brighter tomorrow.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FAF9F4",
+  "theme_color": "#FAF9F4",
+  "icons": [
+    {
+      "src": "images/arcohz-favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/arcohz-apple-touch-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "images/arcohz-favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

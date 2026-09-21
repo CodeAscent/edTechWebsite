@@ -25991,9 +25991,12 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul>li {
     align-items: center;
 }
 
+/* Arcohz header logo (horizontal lockup, ~5.2:1) — sized by height so it sits cleanly in the top bar */
 .flexnav img {
-    width: 120px;
-    height: auto;
+    width: auto;
+    height: 32px;
+    max-width: 100%;
+    flex: 0 0 auto;
 }
 
 
